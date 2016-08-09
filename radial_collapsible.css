@@ -1,0 +1,31 @@
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+  font-weight: bold;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+#chart {
+  text-align: center;
+  margin: 4em;
+  padding: 4em;
+}
+
+#chart > svg {
+  border: 0.1em groove rgba(0,0,100,0.3);
+  border-radius: 2em;
+}
