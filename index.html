@@ -1,5 +1,3 @@
-{% load staticfiles %}
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,15 +12,15 @@
 
     <div class="app-intro">
       <h1><a href="https://bizzcat.github.io">Back to main page</a></h1>
-      <p><a href="https://github.com/bizzcat/DEMO-JSON-parse-n-display/zipball/master">Download ZIP</a></p>
-      <p><a class="buttons" href="https://github.com/bizzcat/DEMO-JSON-parse-n-display/tarball/master">Download TAR</a></p>
-      <p><a href="https://github.com/bizzcat/DEMO-JSON-parse-n-display">View On GitHub</a></p>
+      <p><a href="https://github.com/bizzcat/D3-demo-radial/zipball/gh-pages">Download ZIP</a></p>
+      <p><a class="buttons" href="https://github.com/bizzcat/D3-demo-radial/tarball/gh-pages">Download TAR</a></p>
+      <p><a href="https://github.com/bizzcat/D3-demo-radial/tree/gh-pages">View On GitHub</a></p>
 
       <p>
-        A tool I used to display research article metadata I pulled from <a href="https://doaj.org">DOAJ</a>'s API.
-        <br>It takes an academic discipline, displays journals publishing in that domain, the keywords each journal highlights in their articles, the articles containing each keyword, and the link to that full page article.
+        Displays research article metadata pulled from <a href="https://doaj.org">DOAJ</a>'s API.
+        <br>It takes an academic discipline, displays journals publishing in that domain, the keywords each journal highlights in their articles, and the articles containing each keyword.
+        <br>Click article title to got to site with full article.
         <br>Naturally, I used <i>Computer Software</i> as the discipline to demo with.
-        <br>JS and CSS snippets below.
       </p>
     </div>
 
@@ -43,5 +41,4 @@
 
   <script src="http://code.jquery.com/jquery-2.2.3.js"></script>
   <script src="radial_collapsible.js"></script>
-  <!-- <script src="{% static 'index/index.js' %}"></script> -->
 </html>
